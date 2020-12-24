@@ -1,0 +1,37 @@
+body {
+  background-color: dimgray;
+}
+#location {
+  background-color: red;
+  padding:30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+nav {
+  background-color: black;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+}
+#pizza-pic {
+  background-image: url(https://andrewe42.gitlab.io/portfolio/pizza-site/imgs/pizza-background.webp);
+  padding: 30px;
+}
+#welcome_msg {
+  display: inline-block;
+}
+#phone_number {
+  display: inline-block;
+  background-color:darkslategrey;
+}
+#pizza_night {
+  text-decoration:underline;
+}
+#left {
+  display: inline-block;
+  margin-right: 10px;
+}
+#right {
+  display: inline-block;
+  text-align: right;
+}

@@ -1,0 +1,7 @@
+User-Agent: *
+allow: /andrewe42.github.io/
+Disallow: /School/
+Disallow: /CDN/
+Disallow: /Config-files/
+allow: /Book-Slide/
+Disallow: /Portfolio/

@@ -1,0 +1,28 @@
+body {
+  background-color: dimgray;
+}
+nav {
+  background-color: black;
+  margin-bottom: 30px;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  display: inline-block;
+}
+#pizza-logo {
+  display: inline-block;
+  margin-left: 15px;
+}
+.card {
+  display: inline-block;
+  margin:40px;
+  width: 350px;
+  height: 414px;
+  text-align: center;
+}
+.bg-green {
+  background-color:green;
+}
+.bg-lgreen {
+  background-color: rgb(9, 172, 9);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/depend.css"/>
+      <link rel="stylesheet" href="css/menu.css"/>
+      <title>Menu</title>
+      <script src="https://andrewe42.gitlab.io/CDN/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+      <div id="modalInfoWarning"></div>
+      <div class="jumbotron-fluid text-center">
+        <h1 class="h1">Tasty's Pizza</h1><img src="imgs/pizza-pic.png" id="pizza-logo" alt="pizza-logo" width="60"/>
+      </div>
+      <nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-expand-sm shadow">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuc">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="menuc">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            &nbsp;&nbsp;
+            <li class="nav-item"><a class="nav-link" href="#">Specials</a></li>
+            &nbsp;&nbsp;
+            <li class="nav-item"><a class="nav-link active disabled" href="menu.html">Menu</a></li>
+            &nbsp;&nbsp;
+            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <form class="form-inline" action="#">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <span class="input-group-text material-icons btn bg-white">search</span>
+            </div>
+          </div>
+        </form>
+      </nav>
+      <div class="container-fluid">
+        <div class="card bg-danger text-white shadow">
+          <div class="card-header"><h5>Slice of Pizza</h5> <p>$2.89</p></div>
+          <div class="card-body">
+            <img src="https://media.istockphoto.com/photos/slice-of-fresh-italian-classic-original-pepperoni-pizza-isolated-picture-id496546118?k=6&m=496546118&s=612x612&w=0&h=lQqZS7Wce2bVCkgctEvBPBR5tlUxHGq2HjgpC7iOt3s=" alt="slice of pizza" width="300"/>
+          </div>
+          <div class="card-footer"><p>Extra Items $0.15</p></div>
+        </div>
+        <div class="card bg-danger text-white shadow">
+          <div class="card-header"><h5>Personal Pizza 9"</h5><p>$5.69</p></div>
+          <div class="card-body">
+            <img src="imgs/pizza-pic.png" id="personal-pizza" height="215" alt="personal pizza"/>
+          </div>
+          <div class="card-footer"><p>Extra Items $0.80</p></div>
+        </div>
+        <div class="card bg-danger shadow text-white">
+          <div class="card-header"><h5>Small Pizza 14"</h5><p>$12.70</p></div>
+          <div class="card-body">
+            <img src="imgs/pizza-pic.png" id="small-pizza" height="215" alt="small pizza"/>
+          </div>
+          <div class="card-footer"><p>Extra Items $1.29</p></div>
+        </div>
+        <div class="card bg-danger text-white shadow">
+          <div class="card-header"><h5>Large Pizza 17"</h5><p>$16.99</p></div>
+          <div class="card-body">
+            <img src="imgs/pizza-pic.png" id="large-pizza" height="215" alt="large pizza"/>
+          </div>
+          <div class="card-footer"><p>Extra Items $2.00</p></div>
+        </div>
+        <div class="card bg-danger text-white shadow">
+          <div class="card-header"><h5>Sheet Pizza</h5><p>$30.49</p></div>
+          <div class="card-body">
+            <img src="imgs/pizza-pic.png" id="sheet-pizza" height="215" alt="sheet pizza"/>
+          </div>
+          <div class="card-footer">Extra Items $3.00</div>
+        </div>
+        <div class="card shadow text-white">
+          <div class="card-header bg-green"><h5>Simple Salad</h5><p>$5.39</p></div>
+          <div class="card-body bg-lgreen">
+            <img src="https://images.secretmenus.com/wp-content/uploads/2017/12/garden-salad-small-2-servings.png" alt="Simple Salad" height="215"
+          </div>
+          <div class="card-footer bg-green"><p>With your choice of dressing</p></div>
+        </div>
+      </div>
+    </body>
+    <script src="js/menu.js"></script>
+  </html>

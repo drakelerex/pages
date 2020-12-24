@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="en-us">
+    <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/depend.css"/>
+      <link rel="stylesheet" href="css/index.css"/>
+      <title>Tasty's Pizza</title>
+      <script src="https://andrewe42.gitlab.io/CDN/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="jumbotron-fluid text-center">
+          <h1 class="display-1">Tasty's Pizza</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-expand-sm">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuc">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="menuc">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active disabled" href="#">Home</a></li>
+              &nbsp;&nbsp;
+              <li class="nav-item"><a class="nav-link" href="#">Specials</a></li>
+              &nbsp;&nbsp;
+              <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+              &nbsp;&nbsp;
+              <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <form class="form-inline" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-append">
+                <span class="input-group-text material-icons btn bg-white">search</span>
+              </div>
+            </div>
+          </form>
+        </nav>
+        <div class="text-center" id="pizza-pic">
+          <div class="bg-danger text-center" id="welcome_msg">
+            <h3 class="h3 text-white"><strong class="h2">Welcome to Tasty's Pizza</strong> <br><br> Serving the Southtowns <br> for over 40 years</h3>
+            <h2 class="text-white" id="phone_number">(716) 202-8824</h2>
+            <h4 class="h4" id="pizza_night">**Pizza night Wednesday and Sunday <br> large pizza & 1 topping $14.99**</h4>
+          </div>
+        </div>
+        <div id="location">
+          <div id="left" class="text-white text-left">
+              <h5 class="h5">Blasdell Location</h5>
+              <p>4231 South Park ave.<br>Blasdell, NY 14219<br>(716) 202-8824<br> Dine-In Seating Available</p>
+              <button type="button" class="btn bg-white text-black">Order Online</button>
+          </div>
+          <div id="right" class="text-right text-white">
+            <h5 class="h5">Hamburg location</h5>
+            <p>2370 Seneca Street<br>Hamburg, NY 14075<br>(716) 202-8824<br>Dine-In Seating Available</p>
+            <button type="button" class="btn bg-white text-black">Order Online</button>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
