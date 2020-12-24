@@ -1,1 +1,1 @@
-# Note: there are private backups of this repository on Github, Gitlab, and on my peronal computer
+# Note: there are private backups of this repository on Github, Gitlab, and on my laptop
